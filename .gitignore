@@ -1,0 +1,24 @@
+# Dependencies & logs
+node_modules/
+*.log
+
+# Build & test outputs
+dist/
+dist-ssr/
+coverage/
+.nuxt/
+.output/
+*.tsbuildinfo
+.eslintcache
+
+# Secrets & local DB
+.env
+*.local
+*.sqlite
+!.env.development
+
+# Editors & OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
